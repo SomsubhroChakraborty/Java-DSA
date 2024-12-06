@@ -1,4 +1,5 @@
-public class CeilingNumber {
+public class FloorOfANumber_B {
+
     public static int binarysearch(int[] arr, int target) {
         int left = 0;
         int right = arr.length - 1;
@@ -16,15 +17,15 @@ public class CeilingNumber {
             }
         }
 
-        // `left` now points to the ceiling (smallest number >= target)
-        return arr[left];
+        
+        return arr[right];
     }
-
     public static void main(String[] args) {
+        
         int[] arr = {2, 3, 5, 9, 14, 16, 18};
         int target = 4;
 
-        int ceiling = binarysearch(arr, target);
-        System.out.println("Ceiling number is: " + ceiling);
+        int floor= binarysearch(arr, target);
+        System.out.println("floor number is: " + floor);
     }
 }
