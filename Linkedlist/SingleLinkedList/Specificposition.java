@@ -1,4 +1,4 @@
-package Linkedlist.SingleLinkedList.Specificposition;
+// package Linkedlist.SingleLinkedList.Specificposition;
 // Node class
 class Node {
     int data;

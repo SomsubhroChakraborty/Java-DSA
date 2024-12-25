@@ -1,7 +1,4 @@
-package Linkedlist.SingleLinkedList.InsertAtFirstPosition;
-
-
-
+// package Linkedlist.SingleLinkedList.InsertAtFirstPosition;
 // Node class
 class Node {
     int data;
