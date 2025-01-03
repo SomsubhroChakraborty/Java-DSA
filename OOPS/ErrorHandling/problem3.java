@@ -30,13 +30,17 @@ public class problem3 {
 
         try {
             System.out.println("Enter the age : ");
-            int age = sc.nextInt(0);
+            int age = sc.nextInt();
             validate(age);
-            System.out.println("AGe is valid : ");
 
 
-        } catch (Exception e) {
-            // TODO: handle exception
+        } 
+        catch (Exception e) {
+            System.out.println("the age is less than 18");
+        }
+        finally{
+            System.out.println("Program execution completed");
+            sc.close();
         }
     }
 }
