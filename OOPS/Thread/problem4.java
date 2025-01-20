@@ -33,7 +33,7 @@ class BankAccount {
     }
 }
 
-public class problem5 {
+public class problem4 {
     public static void main(String[] args) {
         BankAccount account = new BankAccount();
 
