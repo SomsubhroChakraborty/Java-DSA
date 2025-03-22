@@ -1,4 +1,4 @@
-package Linkedlist.SingleLinkedList;
+// package Linkedlist.SingleLinkedList;
 
 // Node class
 class Node {
