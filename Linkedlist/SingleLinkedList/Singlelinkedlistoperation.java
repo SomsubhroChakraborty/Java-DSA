@@ -136,7 +136,7 @@ class SinglyLinkedList {
     }
 }
 
-public class Main {
+public class Singlelinkedlistoperation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         SinglyLinkedList sll = new SinglyLinkedList();
