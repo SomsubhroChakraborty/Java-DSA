@@ -1,4 +1,4 @@
-public class MInInRotatedSortedArray {
+ public class MInInRotatedSortedArray {
     
     public static int mininrotatedarray(int[] arr) {
         int left = 0;
