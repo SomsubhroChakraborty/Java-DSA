@@ -32,6 +32,11 @@ public class problem9 {
         int[] coins = {25, 10, 5};  
         int sum = 30;
         System.out.println(minCoin(coins, sum)); 
+
+
+
+
+        
     }
 }
 
