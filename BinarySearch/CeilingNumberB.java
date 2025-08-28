@@ -1,4 +1,4 @@
-package BinarySearch;
+
 public class CeilingNumberB {
     public static int binarysearch(int[] arr, int target) {
         int left = 0;
