@@ -7,12 +7,9 @@ class ListNode {
         this.next = null;
     }
 }
-
-
-
 public class MergerTwoSortedLinkedlist {
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        // Dummy node to simplify list construction
+      
         ListNode dummy = new ListNode(-1);
         ListNode current = dummy;
 
@@ -26,15 +23,11 @@ public class MergerTwoSortedLinkedlist {
             }
             current = current.next;
         }
-
-        // Attach remaining nodes
         if (l1 != null) current.next = l1;
         if (l2 != null) current.next = l2;
-
-        return dummy.next; // The merged head
+        return dummy.next; 
     }
 
-    // Helper function to print the linked list
     public static void printList(ListNode head) {
         while (head != null) {
             System.out.print(head.val + " ");
@@ -44,12 +37,12 @@ public class MergerTwoSortedLinkedlist {
     }
 
     public static void main(String[] args) {
-        // List 1: 1 -> 3 -> 5
+      
         ListNode l1 = new ListNode(1);
         l1.next = new ListNode(3);
         l1.next.next = new ListNode(5);
 
-        // List 2: 2 -> 4 -> 6
+       
         ListNode l2 = new ListNode(2);
         l2.next = new ListNode(4);
         l2.next.next = new ListNode(6);
@@ -60,3 +53,13 @@ public class MergerTwoSortedLinkedlist {
         printList(merged);
     }
 }
+
+
+
+
+
+
+
+
+
+
