@@ -13,9 +13,6 @@ public class LongestSubstringWithoutRepeat {
                 left++;
             }
             set.add(c);
-
-
-
             maxlen = Math.max(maxlen,right-left+1);
         }
         return maxlen;
